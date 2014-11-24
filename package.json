@@ -10,10 +10,15 @@
     "type": "git",
     "url": "git://github.com/morishitter/yacp-strict/git"
   },
-  "keywords": ["preprocessor yacp"],
+  "keywords": [
+    "preprocessor",
+    "yacp"
+  ],
   "author": "Masaaki Morishita",
   "license": "MIT",
-  "dependencies": {},
-  "devDependencies": {
-  }
+  "dependencies": {
+    "postcss": "^3.0.4",
+    "css-specificity": "^0.1.0"
+  },
+  "devDependencies": {}
 }
