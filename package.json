@@ -1,0 +1,19 @@
+{
+  "name": "yacp-strict",
+  "version": "0.0.1",
+  "description": "strict compile mode for YACP",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/morishitter/yacp-strict/git"
+  },
+  "keywords": ["preprocessor yacp"],
+  "author": "Masaaki Morishita",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+  }
+}
