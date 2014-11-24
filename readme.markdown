@@ -1,6 +1,6 @@
 # yacp-strict [![Build Status](https://travis-ci.org/morishitter/yacp-strict.svg)](https://travis-ci.org/morishitter/yacp-strict)
 
-strict compile mode for YACP
+strict compile mode for [YACP](https://github.com/morishitter/YACP)
 
 ## Installation
 
