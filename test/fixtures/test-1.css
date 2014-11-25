@@ -1,0 +1,7 @@
+.class {
+  color: red;
+}
+
+.blue .class {
+  color: blue;
+}
