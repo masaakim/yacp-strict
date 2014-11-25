@@ -9,6 +9,9 @@ module.exports.postcss = function (css) {
             throw new Error('YACP strict mode: using not only class selector')
         })
     })
+    css.eachDecl(function (decl) {
+        if (decl.important) throw new Error('YACP strict mode: using !important')
+    })
     return css
 }
 
