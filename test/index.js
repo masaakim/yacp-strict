@@ -29,3 +29,19 @@ test('success', function (t) {
     t.equal(res, fixture('test-3'))
     t.end()
 })
+
+test('throw error: using not only class selector', function (t) {
+    var res = function () {
+        return postcss().use(strict.postcss).process(fixture('test-4')).css
+    }
+    t.throws(res, /using not only class selector/)
+    t.end()
+})
+
+test('throw error: using not only class selector', function (t) {
+    var res = function () {
+        return postcss().use(strict.postcss).process(fixture('test-5')).css
+    }
+    t.throws(res, /using not only class selector/)
+    t.end()
+})
