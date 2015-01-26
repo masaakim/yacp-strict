@@ -16,7 +16,7 @@ module.exports.postcss = function (css) {
 }
 
 function isOnlyClassSelector (selector) {
-    if (selector.match(/^\./)
+    if (selector.match(/^(\.|\%)/)
         && !selector.match(/\+|>|\*|~/)
         && !selector.match(/\s/)
     ) {

@@ -1,0 +1,7 @@
+%base {
+  font-size: 21px;
+}
+
+.foo {
+  extend: %base;
+}

@@ -45,3 +45,9 @@ test('throw error: using not only class selector', function (t) {
     t.throws(res, /using not only class selector/)
     t.end()
 })
+
+test('placeholder selector is ok too', function (t) {
+    var res = postcss().use(strict.postcss).process(fixture('test-6')).css
+    t.equal(res, fixture('test-6'))
+    t.end()
+})
